@@ -4,7 +4,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-
+import Swal from 'sweetalert2';
 import {
   Paper,
   TextField,
@@ -59,8 +59,14 @@ const Form = () => {
       });
     }
     if (data.email === 'dhina@gmail.com' && data.password === 'dhina@2003') {
-      console.log('Submitted successfully');
+      
       router.push('/about');
+      Swal.fire({
+  title: 'Success!',
+  text: ' Login successfully.',
+  icon: 'success',
+  confirmButtonText: 'OK'
+})
     }
   };
 

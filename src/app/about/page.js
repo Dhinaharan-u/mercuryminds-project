@@ -9,14 +9,15 @@ import Image from 'next/image'
   return (
     <>
     <Navbar/>
-    <Image src="/download (1).png"
+    <div style={{display:"flex",justifyContent:'center',marginTop:'20px'}}>
+      <Image src="/download (1).png"
     height={700}
     width={500}
     alt="Description of the image here"
-    style={
-      {marginLeft:'37%',marginTop:'10px'}
-    }
-    /></>
+    
+    />
+    </div>
+    </>
     
   )
 }

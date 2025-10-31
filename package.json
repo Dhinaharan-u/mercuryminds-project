@@ -2,9 +2,9 @@
   "name": "my-news-app",
   "version": "0.1.0",
   "private": true,
-    "build": "next build --turbopack",  "scripts": {
+  "build": "next build --turbopack",
+  "scripts": {
     "dev": "next dev --turbopack",
-
     "start": "next start"
   },
   "dependencies": {
@@ -25,6 +25,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-hook-form": "^7.65.0",
+    "sweetalert2": "^11.26.3",
     "yup": "^1.7.1"
   },
   "devDependencies": {
