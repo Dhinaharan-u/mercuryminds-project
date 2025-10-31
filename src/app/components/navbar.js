@@ -29,7 +29,7 @@ const { data: session } = useSession();
         {/* Navigation Links */}
         <Box sx={{ display: "flex", gap: 2, alignItems: 'center' }}>
           <Button color="inherit" component={Link} href="/about">
-            Users
+            home
           </Button><Button color="inherit" component={Link} href="/feedback">
             Feedback
           </Button>
