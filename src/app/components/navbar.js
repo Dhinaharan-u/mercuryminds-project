@@ -48,13 +48,19 @@ export default function Navbar() {
     <AppBar position="static" sx={{ bgcolor: "primary", padding: "20px" }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         {/* Logo / Title */}
-        <Typography variant="h6" component="div" sx={{ fontWeight: 600 }}>
+        <Typography variant="h5" component="div" sx={{ fontWeight: 600 }}>
           Mercury Minds
         </Typography>
 
         {/* Navigation Links */}
+        
         <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
-          
+          <Button color="inherit" component={Link} href="/about">
+           Home
+          </Button>
+          <Button color="inherit" component={Link} href="/about">
+           About
+          </Button>
           <Button color="inherit" component={Link} href="/feedback">
             Feedback
           </Button>
