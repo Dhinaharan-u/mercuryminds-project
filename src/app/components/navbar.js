@@ -54,9 +54,7 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
-          <Button color="inherit" component={Link} href="/about">
-            Home
-          </Button>
+          
           <Button color="inherit" component={Link} href="/feedback">
             Feedback
           </Button>
