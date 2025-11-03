@@ -58,8 +58,8 @@ export default function Navbar() {
           <Button color="inherit" component={Link} href="/about">
            Home
           </Button>
-          <Button color="inherit" component={Link} href="/about">
-           About
+          <Button color="inherit" component={Link} href="/users">
+           Users
           </Button>
           <Button color="inherit" component={Link} href="/feedback">
             Feedback
