@@ -6,6 +6,7 @@ import {
   Card,
   CardContent,
   Grid,
+  Avatar  
 } from "@mui/material";
 import { cache } from "react";
 
@@ -49,6 +50,8 @@ export default async function UsersPage() {
                 }}
               >
                 <CardContent>
+                  <Avatar alt="Remy Sharp">{user.name.charAt(0)}</Avatar>
+
                   <Typography variant="h6" sx={{ fontWeight: 700 }}>
                     {user.name}
                   </Typography>
